@@ -1,0 +1,740 @@
+@import "node_modules/normalize.css";
+html {
+  position: relative;
+  width: 95rem;
+  height: 263.125rem;
+  font-size: 16px;
+  background: #fcfaf6;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: absolute;
+  height: 8.13rem;
+  left: 0.07%;
+  right: -0.07%;
+  top: 0px;
+}
+/*Adverst*/
+.header_adverst {
+  display: flex;
+  position: absolute;
+  height: 2.66rem;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  width: auto;
+  background: #F0EEDD;
+  border-radius: 1px;
+}
+.adverst_text {
+  position: absolute;
+  width: 37rem;
+  height: 1.4rem;
+  left: calc(50% - 37rem/2);
+  top: 0.6rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8rem;
+  line-height: 1.33rem;
+  /* identical to box height, or 170% */
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #670a18;
+}
+.header_nav {
+  position: absolute;
+  height: 4rem;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  margin-top: 3rem;
+}
+/*Adverst*/
+/* Navigation rigth */
+.header_navigation_rigth {
+  position: absolute;
+  height: 5.47rem;
+  left: 81.42%;
+  right: 3.33%;
+  top: 0px;
+}
+.nav_faqs {
+  position: absolute;
+  height: 1.53rem;
+  left: 56.73%;
+  right: 22.77%;
+  top: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.86rem;
+  line-height: 1.47rem;
+  /* identical to box height, or 170% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #35312E;
+}
+.nav_profile {
+  position: absolute;
+  height: 2.33rem;
+  right: 0%;
+  top: 2rem;
+  width: 2.33rem;
+  background: #C87B5E;
+  border-radius: 70%;
+}
+.nav_profile a {
+  position: absolute;
+  width: 0.73rem;
+  height: 2.33rem;
+  left: calc(50% - 0.73rem/2);
+  top: -1px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.86rem;
+  line-height: 2.33rem;
+  /* identical to box height, or 269% */
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #F5F1E9;
+}
+.nav_mission {
+  position: absolute;
+  height: 1.53rem;
+  left: 8.89%;
+  right: 59.22%;
+  top: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.86rem;
+  line-height: 1.47rem;
+  /* identical to box height, or 170% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #35312E;
+}
+/*Navigation rigth */
+/*Navigation left*/
+.header_navigation_left {
+  position: absolute;
+  height: 5.3rem;
+  left: 3.33%;
+  right: 65.56%;
+  top: 0px;
+}
+.nav_pan {
+  position: absolute;
+  height: 1.5rem;
+  left: 18.53%;
+  right: 57.14%;
+  top: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.86rem;
+  line-height: 1.45rem;
+  /* identical to box height, or 170% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #35312E;
+}
+.nav_shop {
+  position: absolute;
+  height: 1.5rem;
+  left: 0%;
+  right: 89.29%;
+  top: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.86rem;
+  line-height: 1.49rem;
+  /* identical to box height, or 170% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #35312E;
+}
+.title {
+  position: absolute;
+  height: 2.1rem;
+  left: 38%;
+  right: 45.49%;
+  top: 1.7rem;
+  font-size: 2rem;
+  min-width: 47rem;
+  border-radius: 1px;
+}
+main {
+  position: absolute;
+  height: 272,533rem;
+  left: 0%;
+  right: 0%;
+  width: 96rem;
+  top: 8.13rem;
+}
+.main_rectangle {
+  position: absolute;
+  height: 40.33rem;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  width: 95rem;
+  background: url("img/Rectangle.png") no-repeat center;
+  border-radius: 0px;
+  background-size: 95rem;
+}
+.rectangle_title {
+  position: absolute;
+  height: 17.67rem;
+  left: 26.62%;
+  right: -4.63%;
+  top: 11.326rem;
+  width: 64rem;
+}
+.rectangle_new {
+  position: absolute;
+  height: 4.8rem;
+  left: -0.03%;
+  right: 72.03%;
+  top: 1.54rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.33rem;
+  line-height: 4.8rem;
+  /* identical to box height, or 144% */
+  letter-spacing: 1px;
+  color: #35312E;
+}
+.rectangle_short {
+  position: absolute;
+  height: 1.06rem;
+  left: -0.03%;
+  right: 77.96%;
+  top: -1.89px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.06rem;
+  line-height: 1.06rem;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+  color: #35312E;
+}
+.rectangle_skillet {
+  position: absolute;
+  height: 4.8rem;
+  left: -0.03%;
+  right: 86.24%;
+  top: 5.074rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.33rem;
+  line-height: 4.8rem;
+  /* identical to box height, or 144% */
+  letter-spacing: 1px;
+  text-decoration-line: underline;
+  color: #35312E;
+}
+.rectangle_button {
+  position: absolute;
+  height: 4rem;
+  left: -0.03%;
+  right: 77.96%;
+  top: 13.67rem;
+}
+.rectangle_text {
+  position: absolute;
+  height: 4rem;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  background: #D37657;
+  border-radius: 2px;
+}
+.rectangle_text a {
+  position: absolute;
+  width: 12.53rem;
+  height: 1.4rem;
+  left: calc(50% - 12.53rem/2);
+  top: 1.267rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1.33rem;
+  /* identical to box height, or 170% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.rewies {
+  position: absolute;
+  height: 14.13rem;
+  left: 0%;
+  right: 0%;
+  top: 40rem;
+  width: 95rem;
+  background: #F5F1E9;
+}
+.rewies_main {
+  position: absolute;
+  height: 5.667rem;
+  left: 27.5%;
+  right: -107.5%;
+  top: 2.98rem;
+}
+.rewies_text {
+  position: absolute;
+  width: 42rem;
+  height: 3.2rem;
+  left: 0%;
+  top: -0.2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  /* or 100% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #35312E;
+}
+.rewies_logo {
+  position: absolute;
+  text-align: center;
+  height: 2.31rem;
+  left: 0%;
+  right: 10.42%;
+  top: 8rem;
+}
+.rewies_logo img {
+  display: inline;
+  width: 8.5rem;
+  height: 1.81rem;
+  left: calc(50% - 88.5rem/2 - 26.75rem);
+  top: 0.0133rem;
+  margin-left: 10rem;
+}
+.welcome {
+  position: absolute;
+  height: 340px;
+  left: 0%;
+  right: 0%;
+  top: 816.8px;
+}
+.welcomeYourCompany {
+  position: absolute;
+  width: 25rem;
+  height: 5.81rem;
+  left: calc(50% - 25rem/2 - 24.06rem);
+  top: calc(50% - 5.81rem/2 + 0.6687rem);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.56rem;
+  line-height: 2.875rem;
+  /* or 113% */
+  text-align: center;
+  letter-spacing: 0.083rem;
+  color: #35312E;
+}
+.welcome_text {
+  position: absolute;
+  height: 6.5rem;
+  left: 46.53%;
+  right: 8.33%;
+  top: calc(50% - 6.5rem/2 + 0.2rem);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  /* or 162% */
+  color: #4F463F;
+}
+.design {
+  position: absolute;
+  height: 58.68rem;
+  left: 0%;
+  right: 0%;
+  top: 72.32rem;
+}
+.design_title {
+  position: absolute;
+  height: 11.4rem;
+  left: 0%;
+  right: 0%;
+  top: 4.98rem;
+}
+.design_text {
+  position: absolute;
+  width: 35.25rem;
+  height: 3rem;
+  left: calc(50% - 35.25rem/2);
+  top: -0.3rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.18rem;
+  line-height: 3rem;
+  /* identical to box height, or 137% */
+  text-align: center;
+  color: #35312E;
+}
+.design_circle {
+  position: absolute;
+  max-height: 1.875rem;
+  margin-top: 5rem;
+  left: 38.02%;
+  right: 38.02%;
+}
+.design_circle img {
+  margin-left: 0.5rem;
+  left: 38.02%;
+  right: 38.02%;
+  top: 6rem;
+}
+.design_pan {
+  position: absolute;
+  height: 34.5rem;
+  left: 0%;
+  right: 0%;
+  top: 12rem;
+  border-radius: 0px;
+}
+.design_pan_center {
+  position: absolute;
+  width: 35rem;
+  height: 34.5rem;
+  left: calc(50% - 35rem/2 + 4.95rem);
+  top: -0.0125rem;
+  background: url("img/pan.png") center no-repeat;
+}
+.design_exclusive {
+  position: absolute;
+  height: 0.75rem;
+  left: 18.98%;
+  right: 78.88%;
+  top: 32.5rem;
+}
+.design_wood {
+  position: absolute;
+  height: 0.75rem;
+  left: 79.88%;
+  right: 17.98%;
+  top: 6.7rem;
+}
+.design_easy {
+  position: absolute;
+  height: 0.75rem;
+  left: 15.96%;
+  right: 81.91%;
+  top: 24.825rem;
+}
+.design_stay {
+  position: absolute;
+  height: 0.75rem;
+  left: 79.88%;
+  right: 17.98%;
+  top: 25.75rem;
+}
+.design_nestig {
+  position: absolute;
+  height: 0.75rem;
+  left: 58.87%;
+  right: 39%;
+  top: 18.25rem;
+}
+.design_modular {
+  position: absolute;
+  height: 0.75rem;
+  left: 5.45%;
+  right: 92.41%;
+  top: 6.2rem;
+}
+.design_dot {
+  position: absolute;
+  height: 0.75rem;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  background: #E09D81;
+}
+.design_exclusive_text {
+  position: absolute;
+  width: 10.75rem;
+  height: 2.93rem;
+  left: calc(50% - 10.75rem/2 - 10.74rem);
+  top: -2.93rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.93rem;
+  /* or 129% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #6E6259;
+}
+.design_wood_text {
+  position: absolute;
+  width: 9.875rem;
+  height: 1.93rem;
+  left: calc(50% - 9.875rem/2 + 0.125rem);
+  top: -4.43rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.93rem;
+  /* or 129% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #6E6259;
+}
+.desing_easy_text {
+  position: absolute;
+  width: 6.69rem;
+  height: 1.93rem;
+  left: calc(50% - 6.69rem/2 - 6.67rem);
+  top: -2.5rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.93rem;
+  /* or 129% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #6E6259;
+}
+.design_stay_text {
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  left: calc(50% - 10rem/2 + 2.625rem);
+  top: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.93rem;
+  /* identical to box height, or 129% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #6E6259;
+}
+.design_nesting_text {
+  position: absolute;
+  width: 10.69rem;
+  height: 1.93rem;
+  left: calc(50% - 10.69rem/2 + 7.4rem);
+  top: -0.5rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.93rem;
+  /* or 129% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #6E6259;
+}
+.design_modular_text {
+  position: absolute;
+  width: 8.44rem;
+  height: 1.93;
+  left: calc(50% - 8.44rem/2 - 7.1rem);
+  top: -1rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.93rem;
+  /* or 129% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #6E6259;
+}
+.presentaion_wiew {
+  position: absolute;
+  height: 30.23rem;
+  left: -1.49%;
+  right: -1.49%;
+  top: 21rem;
+}
+.presentaition_wiew_complete {
+  position: absolute;
+  width: 19.125rem;
+  height: 12.75rem;
+  left: 72.125rem;
+  top: 2.47rem;
+  z-index: 1;
+  background: url(img/image4.png) 100% 100% no-repeat;
+}
+.presentation_wiew_assembly {
+  position: absolute;
+  height: 27.73rem;
+  left: 77.17%;
+  right: 2.17%;
+  top: 0rem;
+}
+.presentation_background {
+  position: absolute;
+  height: 14.31rem;
+  left: 0%;
+  right: 0%;
+  top: 0.5rem;
+  background-color: #F7F3EB;
+  border-radius: 40%;
+  z-index: 0;
+}
+.presentation_wiew_text {
+  position: absolute;
+  height: 9.0625rem;
+  left: 0%;
+  right: 0%;
+  top: 15.23rem;
+}
+.presentation_wiew_text .pan {
+  position: absolute;
+  width: 7.25rem;
+  height: 1.5rem;
+  left: calc(50% - 7.25rem/2);
+  top: calc(50% - 1.5rem/2 - 3.795rem);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  /* identical to box height, or 170% */
+  text-align: center;
+  letter-spacing: 0.031rem;
+  text-transform: uppercase;
+  color: #35312E;
+}
+.presentation_wiew_text .price {
+  position: absolute;
+  width: 1.81rem;
+  height: 1.31rem;
+  left: calc(50% - 1.81rem/2 - 0.031rem);
+  top: 1.74rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.81rem;
+  line-height: 1.25rem;
+  /* identical to box height, or 175% */
+  text-align: center;
+  letter-spacing: 0.0125rem;
+  color: #6E635A;
+}
+.presentation_wiew_text .about {
+  position: absolute;
+  width: 11.5rem;
+  height: 4.93rem;
+  left: calc(50% - 11.5rem/2);
+  top: calc(50% - 4.93rem/2 + 1.36rem);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.81rem;
+  line-height: 1.25rem;
+  /* or 151% */
+  text-align: center;
+  letter-spacing: 0.0125rem;
+  color: #6E635A;
+}
+.presentation_circle {
+  display: inline;
+  position: absolute;
+  width: 18.75rem;
+  height: 1.25rem;
+  left: calc(50% - 17.75rem/2);
+  bottom: 1.56rem;
+}
+.presentation_circle a {
+  margin-left: 1rem;
+}
+.presentaion {
+  position: absolute;
+  height: 51.23rem;
+  left: 3.33%;
+  right: 3.33%;
+  top: 131rem;
+}
+.presentaion_title {
+  position: absolute;
+  height: 11rem;
+  left: 29.17%;
+  right: 29.17%;
+  top: 5rem;
+}
+.presentaion_wiew {
+  position: absolute;
+  height: 30.23rem;
+  left: -1.49%;
+  right: -1.49%;
+  top: 21rem;
+}
+.presentaion_title_text {
+  position: absolute;
+  width: 27.6rem;
+  height: 3.625rem;
+  left: calc(50% - 27.6rem/2 + 0.031rem);
+  top: 7.66rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.81rem;
+  /* or 161% */
+  text-align: center;
+  color: #4F463F;
+}
+.presentaion_title_main {
+  position: absolute;
+  width: 29.8rem;
+  height: 6.93rem;
+  left: calc(50% - 29.8rem/2 + 0.031rem);
+  top: -0.4rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.06rem;
+  line-height: 3.438rem;
+  /* or 167% */
+  text-align: center;
+  letter-spacing: 0.075rem;
+  color: #35312E;
+}
+.presentation_plates {
+  position: absolute;
+  height: 443.8px;
+  left: 52.17%;
+  right: 27.17%;
+  top: 0px;
+}
+.presentation_glases {
+  position: absolute;
+  height: 443.8px;
+  left: 27.17%;
+  right: 52.17%;
+  top: 0px;
+}
+.presentation_bowls {
+  position: absolute;
+  height: 443.8px;
+  left: 2.17%;
+  right: 77.17%;
+  top: 0px;
+}
